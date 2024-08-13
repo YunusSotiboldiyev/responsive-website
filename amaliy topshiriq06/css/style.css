@@ -1,0 +1,139 @@
+.headerItems--topbar{
+     width: 80%;
+     margin: 0 auto;
+     height: 80vh;
+}
+.allItems{
+     width: 80%;
+     margin: 0 auto;
+}
+.headerItems{
+     width: 100%;
+     color: white;
+     background-color: #74c69d;
+}
+.headerItems--topbar .left a{
+     font-size: 30px;
+}
+
+.headerItems .letter{
+     text-transform: uppercase;
+     letter-spacing: 10px;
+     font-weight: 700;
+}
+.headerItems--topbar__body{
+     display: flex;
+     justify-content: space-between;
+     padding-top: 50px;
+}
+.headerItems--topbar__body--left{
+     width: 33%;
+}
+.headerItems--topbar__body--left p{
+     color: azure;
+     font-size: small;
+}
+.headerItems--topbar__body--right img{
+     width: 80%;
+     height: auto;
+}
+.headerItems--topbar__body button {
+     border: 0;
+     height: 40px;
+     width: 150px;
+}
+
+.allItems{
+     padding-top: 30px;
+     text-align: center;
+}
+.blackButton{
+     height: 40px;
+     width: 140px;
+     background-color: black;
+     color: white;
+     border-radius: 5px;
+}
+.twoPiece{
+     display: flex;
+}
+.firstPiece, .secondPiece{
+     width: 50%;
+}
+.firstPiece img{
+     height: 400px;
+}
+.secondPiece{
+     padding-top: 70px;
+     text-align: left;
+}
+.secondPiece p{
+     color: rgb(89, 93, 93);
+     font-size: 15px;
+}
+.image{
+     height: 250px;
+}
+
+.hire, .hide{
+     display: none;
+}
+
+@media (max-width: 400px) {
+  /* reflexive styles */
+  .allItems img {
+    display: block;
+  }
+  .hire, .hide {
+    display: flex;
+  }
+  .allItems {
+    width: 600px;
+  }
+  .headers {
+    width: 90%;
+  }
+  .headerItems {
+    width: 600px;
+    height: 800px;
+  }
+  header .right, .headerItems--topbar__body--right {
+    display: none;
+  }
+  .headerItems--topbar__body--left {
+    width: 90%;
+  }
+  .hire, .hide {
+    display: flex;
+  }
+  .headerItems--topbar {
+    padding: 10px;
+    width: 90%;
+    font-size: 30px;
+    margin: 0 auto;
+    height: 80vh;
+    display: block;
+  }
+  .headerItems--topbar__body {
+    display: block;
+  }
+  .headerItems--topbar__body button {
+    font-size: 30px;
+  }
+  .twoPiece {
+    display: block;
+  }
+  .secondPiece, .firstPiece {
+    width: 90%;
+  }
+  footer {
+    text-align: center;
+    display: block;
+    width: 500px;
+  }
+  .image {
+    margin: 0 auto;
+    height: auto;
+    width: 300px;
+  }
+}

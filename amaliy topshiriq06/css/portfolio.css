@@ -1,0 +1,17 @@
+.allInOne{
+     text-align: center;
+}
+
+.imge{
+     width: 600px;
+     height: auto;
+}
+.hide{
+     display: none;
+}
+@media (max-width:550px) {
+     .allInOne img{
+          width: 90%;
+          height: 45%;
+     }
+}
